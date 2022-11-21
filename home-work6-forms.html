@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="fullname">Full name:</label><br />
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        value="Оля Проданюк"
+      /><br />
+      <label for="personalEmail">Email:</label><br />
+      <input
+        type="text"
+        id="personalEmail"
+        name="personalEmail"
+        value="name@gmail.com"
+      /><br />
+      <label for="personalPassword">Password:</label><br />
+      <input type="text" id="personalPassword" name="personalPassword" /><br />
+      <label for="personalPasswordAgain">Confirm Password:</label><br />
+      <input
+        type="text"
+        id="personalPasswordAgain"
+        name="personalPasswordAgain"
+      /><br />
+      <fieldset>
+        <legend>Sex:</legend>
+        <div>
+          <input
+            type="radio"
+            id="sexMale"
+            name="radiobutton"
+            value="Male"
+            checked
+          />
+          <label for="sexMale">Male</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id="sexFemale"
+            name="radiobutton"
+            value="Female"
+          />
+          <label for="sexFemale">Female</label>
+        </div>
+      </fieldset>
+      <div>
+        <label for="myAge">Age:</label>
+        <input type="number" id="myAge" name="myAge" min="1" max="100" />
+      </div>
+      <div>
+        <form action="/action_page.php">
+          <label for="cars">Choose a course:</label>
+          <select id="courses" name="courses">
+            <option value="front-end">Front-End</option>
+            <option value="back-end">Back-End</option>
+            <option value="pm">Project Management</option>
+            <option value="qa-manual">QA Manual</option>
+          </select>
+          <input type="submit" />
+        </form>
+      </div>
+      <div>
+        <label for="fullAddress">Full address:</label>
+        <textarea
+          type="textarea"
+          id="fullAddress"
+          name="fullAddress"
+          rows="4"
+          cols="50"
+          placeholder="Country,region, city/village, street"
+        ></textarea>
+      </div>
+      <div>
+        <label for="agreePersonalData"
+          >Agree with processing my personal data:</label
+        >
+        <input
+          type="checkbox"
+          id="agreePersonalData"
+          name="agreePersonalData"
+        />
+      </div>
+      <div>
+        <button type="button">Register</button>
+      </div>
+    </form>
+  </body>
+</html>
