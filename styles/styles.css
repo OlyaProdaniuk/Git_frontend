@@ -32,15 +32,17 @@
    
 }
 
+.denis-block {
+    
+    font-size: 43px;
+}
+
 /* main bloc */
 .dn-name {
+
+    position: relative;
+    right: 350px;
    
-    padding-bottom: 10px;
-    padding-left: 350px;
-    font-size: 43px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
     
 }
 
