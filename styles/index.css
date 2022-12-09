@@ -1,0 +1,109 @@
+body {
+    font-size: 18px;
+    background-color: rgb(173, 169, 169);
+}
+
+/* font-family: 'Kenia', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.block1 {
+    font-family: 'Kenia', cursive;
+}
+.block2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.block3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+.block4 {
+    font-family: 'Noto Sans Mono', monospace;
+}
+.block5 {
+    font-family: 'Open Sans', sans-serif;
+}
+.block6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.custom-styles {
+    font-size: 50px;
+    color: pink;
+}
+
+/* horizontaly */
+/* element {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  } */
+
+/* vertically */
+/* element {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+} */
+
+/* both  */
+/* position: absolute;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto; */
+
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    background-color: pink;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    bottom: 200px;
+
+}
+.innerBlock {
+    padding: 50px;
+    background-color: antiquewhite;
+    width: 75%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    /* bottom: 0;
+    top:0;
+    margin: auto;
+    padding: 20px 10px; */
+    height: 100px;
+    z-index: 2;
+
+}
+.header {
+    background-color: rgb(117, 169, 169);
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 100px;
+
+}
+.innerBlock2 {
+    padding: 50px;
+    background-color: rgb(152, 52, 52);
+    width: 25%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
