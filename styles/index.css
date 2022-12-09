@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  
+  margin: 120px 0 80px;
+  text-transform: uppercase;
+}
+
+p {
+  
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 135px 120px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.grid-container.first {
+  height: 1170px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "grid-item1 grid-item2 grid-item2"
+    "grid-item3 grid-item3 grid-item4"
+    "grid-item5 grid-item6 grid-item6";
+}
+
+.grid-container.second {
+  height: 1570px;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "grid-item1 grid-item2 grid-item2"
+    "grid-item3 grid-item3 grid-item4"
+    "grid-item3 grid-item3 grid-item4"
+    "grid-item5 grid-item5 grid-item6";
+}
+
+.grid-container.third {
+  height: 1970px;
+  grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "grid-item1 grid-item2 grid-item3"
+    "grid-item4 grid-item2 grid-item5"
+    "grid-item6 grid-item7 grid-item5"
+    "grid-item6 grid-item8 grid-item8"
+    "grid-item9 grid-item9 grid-item10";
+}
+
+body .container .grid-container .grid-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first .grid-item.first {
+  background: url(assets/images/image-1.svg);
+  grid-area: grid-item1;
+}
+
+.first .grid-item.second {
+  background: url(assets/images/image-2.svg);
+  grid-area: grid-item2;
+}
+
+.first .grid-item.third {
+  background: url(assets/images/image-3.svg);
+  grid-area: grid-item3;
+}
+
+.first .grid-item.fourth {
+  background: url(assets/images/image-4.svg);
+  grid-area: grid-item4;
+}
+
+.first .grid-item.fifth {
+  background: url(assets/images/image-5.svg);
+  grid-area: grid-item5;
+}
+
+.first .grid-item.sixth {
+  background: url(assets/images/image-6.svg);
+  grid-area: grid-item6;
+}
+
+.second .grid-item.first {
+  background: url(assets/images/image-7.svg);
+  grid-area: grid-item1;
+}
+
+.second .grid-item.second {
+  background: url(assets/images/image-8.svg);
+  grid-area: grid-item2;
+}
+
+.second .grid-item.third {
+  background: url(assets/images/image-9.svg);
+  grid-area: grid-item3;
+}
+
+.second .grid-item.fourth {
+  background: url(assets/images/image-10.svg);
+  grid-area: grid-item4;
+}
+
+.second .grid-item.fifth {
+  background: url(assets/images/image-11.svg);
+  grid-area: grid-item5;
+}
+
+.second .grid-item.sixth {
+  background: url(assets/images/image-12.svg);
+  grid-area: grid-item6;
+}
+
+.third .grid-item.first {
+  background: url(assets/images/image-13.svg);
+  grid-area: grid-item1;
+}
+
+.third .grid-item.second {
+  background: url(assets/images/image-14.svg);
+  grid-area: grid-item2;
+}
+
+.third .grid-item.third {
+  background: url(assets/images/image-15.svg);
+  grid-area: grid-item3;
+}
+
+.third .grid-item.fourth {
+  background: url(assets/images/image-16.svg);
+  grid-area: grid-item4;
+}
+
+.third .grid-item.fifth {
+  background: url(assets/images/image-17.svg);
+  grid-area: grid-item5;
+}
+
+.third .grid-item.sixth {
+  background: url(assets/images/image-18.svg);
+  grid-area: grid-item6;
+}
+
+.third .grid-item.seventh {
+  background: url(assets/images/image-19.svg);
+  grid-area: grid-item7;
+}
+
+.third .grid-item.eighth {
+  background: url(assets/images/image-20.svg);
+  grid-area: grid-item8;
+}
+
+.third .grid-item.nineth {
+  background: url(assets/images/image-21.svg);
+  grid-area: grid-item9;
+}
+
+.third .grid-item.tenth {
+  background: url(assets/images/image-22.svg);
+  grid-area: grid-item10;
+}
+
+.grid-container > div {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+}
+
+.card-overlay {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.grid-item {
+  opacity: 0.8;
+}
+
+.grid-item:hover {
+  opacity: 1;
+}
+
+.grid-item:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay img {
+  margin: 20px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.date {
+  font-weight: 400;
+  color: #e0e0e0;
+}

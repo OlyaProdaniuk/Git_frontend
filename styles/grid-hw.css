@@ -1,0 +1,503 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/* styles for the first container */
+.first-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+.first-grid-container {
+    display: grid;
+    padding: 10px;
+    gap: 30px;
+    height: 1170px;
+    justify-content: center;
+}
+.architechture-grid-item1 {
+    grid-area: 1/1/2/2;
+    position: relative;
+    display: inline-block;
+}
+
+
+.architechture-grid-item1 > .hover1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.architechture-grid-item1:hover > .like {
+    z-index: 3;
+}
+
+
+.architechture-grid-item1:hover > .hover1 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item2 {
+    grid-area: 1/2/2/4; 
+    position: relative;
+    display: inline-block;
+}
+
+.architechture-grid-item2 > .hover2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.architechture-grid-item2:hover > .hover2 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item2:hover > .like {
+    z-index: 3;
+}
+.architechture-grid-item3 {
+    grid-area: 2/1/3/3; 
+    position: relative;
+    display: inline-block;
+}
+.architechture-grid-item3 > .hover3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.architechture-grid-item3:hover > .hover3 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item3:hover > .like {
+    z-index: 3;
+}
+
+.architechture-grid-item4 {
+    grid-area: 2/3/3/4; 
+    position: relative;
+    display: inline-block;
+}
+.architechture-grid-item4 > .hover4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.architechture-grid-item4:hover > .hover4 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item4:hover > .like {
+    z-index: 3;
+}
+.architechture-grid-item5 {
+    grid-area: 3/1/4/2;
+    position: relative;
+    display: inline-block;
+}
+.architechture-grid-item5 > .hover5 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.architechture-grid-item5:hover > .hover5 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item5:hover > .like {
+    z-index: 3;
+}
+.architechture-grid-item6 {
+    grid-area: 3/2/4/4;
+    position: relative;
+    display: inline-block;
+}
+.architechture-grid-item6 > .hover6 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.architechture-grid-item6:hover > .hover6 {
+    display: inline;
+    border-radius: 20px;
+}
+.architechture-grid-item6:hover > .like {
+    z-index: 3;
+}
+
+
+
+
+
+/* styles for the second container */
+.second-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.second-grid-container {
+    display: grid;
+    
+    padding: 10px;
+    gap: 30px;
+    height: 1570px;
+    justify-content: center;
+}
+
+.photography-grid-item1 {
+    grid-area: 1/1/2/2; 
+
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item1 > .hover7 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item1:hover > .hover7 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item1:hover > .like {
+    z-index: 3;
+}
+.photography-grid-item2 {
+    grid-area: 1/2/2/4; 
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item2 > .hover8 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item2:hover > .hover8 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item2:hover > .like {
+    z-index: 3;
+}
+.photography-grid-item3 {
+    grid-area: 2/1/3/3;
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item3 > .hover9 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item3:hover > .hover9 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item3:hover > .like {
+    z-index: 3;
+}
+.photography-grid-item4 {
+    grid-area: 2/3/3/4; 
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item4 > .hover10 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item4:hover > .hover10 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item4:hover > .like {
+    z-index: 3;
+}
+.photography-grid-item5 {
+    grid-area: 3/1/4/3; 
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item5 > .hover11 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item5:hover > .hover11 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item5:hover > .like {
+    z-index: 3;
+}
+.photography-grid-item6 {
+    grid-area: 3/3/4/4; 
+    position: relative;
+    display: inline-block;
+}
+.photography-grid-item6 > .hover12 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.photography-grid-item6:hover > .hover12 {
+    display: inline;
+    border-radius: 20px;
+}
+.photography-grid-item6:hover > .like {
+    z-index: 3;
+}
+
+
+
+
+
+
+/* styles for the third container */
+.third-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.third-grid-container {
+    display: grid;
+    
+    padding: 10px;
+    gap: 30px;
+    height: 1970px;
+    justify-content: center;
+}
+.portrait-item1 {
+    grid-area: 1/1/2/2;
+    position: relative;
+    display: inline-block;
+}
+.portrait-item1 > .hover13 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item1:hover > .hover13 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item1:hover > .like {
+    z-index: 3;
+}
+.portrait-item2 {
+    grid-area: 1/2/3/3;
+    position: relative;
+    display: inline-block;
+}
+.portrait-item2 > .hover14 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item2:hover > .hover14 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item2:hover > .like {
+    z-index: 3;
+}
+.portrait-item3 {
+    grid-area: 1/3/2/4;  
+    position: relative;
+    display: inline-block;
+}
+.portrait-item3 > .hover15 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item3:hover > .hover15 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item3:hover > .like {
+    z-index: 3;
+}
+.portrait-item4 {
+    grid-area: 2/1/3/2;  
+    position: relative;
+    display: inline-block;
+}
+.portrait-item4 > .hover16 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item4:hover > .hover16 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item4:hover > .like {
+    z-index: 3;
+}
+.portrait-item5 {
+    grid-area: 2/3/4/4;  
+    position: relative;
+    display: inline-block;
+}
+.portrait-item5 > .hover17 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item5:hover > .hover17 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item5:hover > .like {
+    z-index: 3;
+}
+.portrait-item6 {
+    grid-area: 3/1/5/2;
+    position: relative;
+    display: inline-block;
+}
+.portrait-item6 > .hover18 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item6:hover > .hover18 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item6:hover > .like {
+    z-index: 3;
+}
+.portrait-item7 {
+    grid-area: 3/2/4/3; 
+    position: relative;
+    display: inline-block;
+}
+.portrait-item7 > .hover19 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item7:hover > .hover19 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item7:hover > .like {
+    z-index: 3;
+}
+.portrait-item8 {
+    grid-area: 4/2/5/4;  
+    position: relative;
+    display: inline-block;
+}
+.portrait-item8 > .hover20 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item8:hover > .hover20 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item8:hover > .like {
+    z-index: 3;
+}
+.portrait-item9 {
+    grid-area: 5/1/6/3;  
+    position: relative;
+    display: inline-block;
+}
+.portrait-item9 > .hover21 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item9:hover > .hover21 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item9:hover > .like {
+    z-index: 3;
+}
+.portrait-item10 {
+    grid-area: 5/3/6/4; 
+    position: relative;
+    display: inline-block;
+}
+.portrait-item10 > .hover22 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.portrait-item10:hover > .hover22 {
+    display: inline;
+    border-radius: 20px;
+}
+.portrait-item10:hover > .like {
+    z-index: 3;
+}
+.like {
+    position: absolute;
+    z-index: -2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.like img {
+    margin: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.third-grid-container {
+    display: grid;
+    /* height: 1970px; */
+    grid-template-areas:
+    "portrait-item1 portrait-item2 portrait-item3"
+    "portrait-item4 portrait-item2 portrait-item5"
+    "portrait-item6 portrait-item7 portrait-item5"
+    "portrait-item6 portrait-item8 portrait-item8"
+    "portrait-item9 portrait-item9 portrait-item10";
+    gap: 30px;
+}
