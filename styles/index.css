@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    background-color: beige;
+}
+.container {
+    width: 40%;
+    margin: 0 auto;;
+}
+.block {
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid black;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    
+}
+.block:hover {
+    background-color: aqua;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    /* transform: rotate(-90deg);
+    transform-origin: top right; */
+    translate: 50px 100px; horizontal right
+    /* transform: scale(-1.5); */
+}
+.block:hover::after {
+    content: "buy";
+}
