@@ -1,0 +1,195 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #545454;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  display: flex;
+}
+
+/* forms */
+
+form {
+  width: 570px;
+  height: 590px;
+  padding: 35px;
+}
+
+form > * {
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select,
+button {
+  border: 1px #e4e4e4 solid;
+  border-radius: 6px;
+  width: 100%;
+  height: 38px;
+  
+}
+
+select {
+  
+  color: #545454;
+  appearance: none;
+  
+}
+
+input:focus,
+select:focus {
+  outline-color: #007bff;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #1c1c1c;
+  display: block;
+  margin-top: 0;
+}
+
+button {
+  border: none;
+  background-color: #007bff;
+  width: 97%;
+  margin: 20px 0;
+  cursor: pointer;
+  color: white;
+}
+
+.form-footer p:first-child {
+  font-size: 13px;
+  color: #969696;
+}
+
+.form-footer p:nth-child(2) {
+  padding-top: 20px;
+  border-top: 1px solid #e4e4e4;
+}
+.form-footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.form__full {
+  width: 97%;
+}
+
+.form__half {
+  margin-right: 10px;
+  width: 47%;
+}
+
+.form__full > p {
+  margin-top: 7px;
+  font-size: 13px;
+  color: #969696;
+}
+
+/* radiobuttons */
+
+.radio-btn {
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio-btn input {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.radio-btn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.radio-btn input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-btn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-btn .checkmark:after {
+  border-radius: 50%;
+  background: white;
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  
+}
+
+.photo-block {
+  position: relative;
+  display: flex;
+}
+
+.photo-block img {
+  margin-right: 20px;
+}
+
+#photo {
+  position: absolute;
+  right: 0;
+  top: 5%;
+  opacity: 0;
+  width: 50%;
+}
+
+.image-container label {
+  font-size: 12px;
+  color: #969696;
+}
+.btn-block {
+  vertical-align: top;
+}
+
+.btn-delete {
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px #e4e4e4 solid;
+}
+
+.update-btn {
+  width: 150px;
+}
