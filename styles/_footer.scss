@@ -1,0 +1,58 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-landings-ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-size: $font20;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: $brownLight;
+}
+a:hover {
+  color: $tomato;
+}
+
+.footer-wrapper {
+  background-color: $brownDark;
+  color: $brownLight;
+}
+
+.social {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+}
+.social__icon {
+  border-radius: 5px;
+  height: 58px;
+  width: 58px;
+  stroke: $brownLight;
+  fill: $brownDark;
+}
+.social__icon:hover {
+  fill: $tomato;
+  stroke: $tomato;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  margin: 0;
+}
+.copyright {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.phone-num {
+  font-size: $font20;
+}

@@ -1,0 +1,7 @@
+@mixin view-button {
+  padding: 5px 35px;
+  background-color: white;
+  border: 1px solid $black;
+  text-transform: uppercase;
+  font-size: $font18;
+}

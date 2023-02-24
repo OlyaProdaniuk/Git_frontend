@@ -1,0 +1,27 @@
+.swiper2 {
+  height: 500px;
+}
+.new-arrivals {
+  display: flex;
+  height: 770px;
+}
+.swiper-wrapper2 {
+  height: 100%;
+  width: 100%;
+  cursor: grab;
+}
+.view-more-btn {
+  @include view-button;
+}
+.view-btn {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.view-more-btn:hover {
+  background-color: $tomato;
+  color: $brownLight;
+  border: 1px solid $tomato;
+}
+.swiper-slide1 {
+  border: 1px solid #cac2ba;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swiper</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="smartphone">
+        <nav class="topnav responsive">
+          <img src="assets/logo.svg" alt="logo" />
+
+          <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">Catalog</a>
+            <a href="#contact">News</a>
+            <a href="#about">Contacts</a>
+          </div>
+          <div>
+            <a href="#home" class="active"
+              ><img src="assets/search-icon.svg" alt="search"
+            /></a>
+            <a href="#news"
+              ><img src="assets/profile-icon.svg" alt="profile"
+            /></a>
+          </div>
+          <div>
+            <a href="javascript:void(0);" class="icon">
+              <img
+                src="assets/burger.svg"
+                alt="burger"
+                onclick="myFunction()"
+              />
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN PART -->
+    <div class="guitars">
+      <div class="find-your-style">
+        Find Your <br />
+        Own Style
+        <div class="view-more-btn-wrapper">
+          <button class="view-more-btn">View More</button>
+        </div>
+      </div>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="assets/picture1.png" alt="red guitar" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/picture2.png" alt="wooden guitar" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/picture3.png" alt="many guitars" />
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <!-- END -->
+    </div>
+    <div class="swiper2">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide fa">
+          <img src="assets/guitar1.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+        <div class="swiper-slide fa">
+          <img src="assets/guitar2.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+        <div class="swiper-slide fa">
+          <img src="assets/guitar3.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+        <div class="swiper-slide fa">
+          <img src="assets/guitar4.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+        <div class="swiper-slide fa">
+          <img src="assets/guitar5.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+        <div class="swiper-slide fa">
+          <img src="assets/guitar1.png" alt="guitar" />
+          <p>Hagstrom Alvar Limited Edition</p>
+          <p>€2.990,00</p>
+        </div>
+      </div>
+    </div>
+    <div class="view-btn">
+      <button class="view-more-btn">View More</button>
+    </div>
+    <div class="partners">
+      <h3 class="partners-title">Our partners</h3>
+      <div class="swiper3">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="assets/partner1.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner2.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner3.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner4.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner5.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner6.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner7.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner8.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner9.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner1.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner2.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner3.svg" alt="logo" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/partner4.svg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer-wrapper">
+      <div class="footer">
+        <div class="footer-landings">
+          <img src="assets/logo.svg" alt="logo" />
+          <ul class="footer-landings-ul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="contact-us">
+          <h5 class="contact">Contact us</h5>
+          <ul class="social">
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon">
+                  <use xlink:href="assets/instagram.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link">
+                <svg class="social__icon">
+                  <use xlink:href="assets/facebook.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="social__icon">
+                  <use xlink:href="assets/pinterest.svg#pinterest"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="social__icon">
+                  <use xlink:href="assets/twitter.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link">
+                <svg class="social__icon">
+                  <use xlink:href="assets/youtube.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="phone-num">0800 300 4040</p>
+        </div>
+      </div>
+
+      <p class="copyright">© Copyright 2022. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
